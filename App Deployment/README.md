@@ -5,7 +5,8 @@ A collection of app deployment tools.
 ## Tools
 - [UninstallView](https://www.nirsoft.net/utils/uninstall_view.html)
 - [Master Packager Free](https://www.masterpackager.com/installer/masterpackager_latest_version.msi)
-
+- [Registry to Powershell converter](https://reg2ps.azurewebsites.net/)
+  -[Github](https://github.com/rzander/Reg2CI)
 ## News and App Libraries
 - [App Deploy News](https://www.appdeploynews.com/app-tips/)
 - [Silent Install HQ](https://silentinstallhq.com/)
