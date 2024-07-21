@@ -1,0 +1,2 @@
+INSTALL - CMD
+NDP47-KB3186497-x86-x64-AllOS-ENU.exe /q /log "C:\Intune App Log\MS Framework 4_I.txt

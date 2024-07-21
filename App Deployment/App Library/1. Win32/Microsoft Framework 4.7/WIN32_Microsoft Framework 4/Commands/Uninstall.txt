@@ -1,0 +1,2 @@
+UNINSTALL - CMD
+NDP47-KB3186497-x86-x64-AllOS-ENU.exe /q /uninstall /log "C:\Intune App Log\MS Framework 4_U.txt"

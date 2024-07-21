@@ -1,0 +1,2 @@
+INSTALL - CMD
+VC_redist.x86.exe /install /quiet /norestart /log "C:\Intune App Log\MSVisualx86_I.txt"
