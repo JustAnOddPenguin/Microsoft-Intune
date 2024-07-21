@@ -12,8 +12,7 @@ This document outlines the folder structure used for managing deployment templat
 ├── /notes
 ├── /output
 └── /source
-
-## Folder Descriptions
+```
 
 - /Template: Root directory for all deployment templates.
 - /commands: Contains scripts or commands used during the deployment process. Examples might include installation scripts or configuration commands.

@@ -9,6 +9,8 @@ A collection of app deployment tools.
 - [Master Packager Free](https://www.masterpackager.com/installer/masterpackager_latest_version.msi)
 - [Registry to Powershell converter](https://reg2ps.azurewebsites.net/)
   - [Github](https://github.com/rzander/Reg2CI)
+- [CM Trace](https://www.microsoft.com/en-us/evalcenter/download-microsoft-endpoint-configuration-manager)
+  - [Extract the .exe, CM Trace is under SMSSETUP\Tools](https://www.reddit.com/r/Intune/comments/w948bn/comment/j326ku3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
  
 ## News and App Libraries
 - [App Deploy News](https://www.appdeploynews.com/app-tips/)
