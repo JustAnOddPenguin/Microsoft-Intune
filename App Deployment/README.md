@@ -5,6 +5,7 @@ A collection of app deployment tools.
 ## Tools
 - [Microsoft Win32 Content Prep Tool](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool?tab=security-ov-file)
 - [PS App Deployment Toolkit](https://github.com/PSAppDeployToolkit/PSAppDeployToolkit)
+- [*.Intunewinfile decrypter](https://msendpointmgr.com/2019/01/18/how-to-decode-intune-win32-app-packages/) or [Extract Win32 apps.exe](https://www.bilalelhaddouchi.nl/index.php/2022/03/23/extract-win32-apps/)
 - [UninstallView](https://www.nirsoft.net/utils/uninstall_view.html)
 - [Master Packager Free](https://www.masterpackager.com/installer/masterpackager_latest_version.msi)
 - [Registry to Powershell converter](https://reg2ps.azurewebsites.net/)
