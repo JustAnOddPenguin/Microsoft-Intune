@@ -1,29 +1,57 @@
 # Intune Deployment Naming Conventions
 
-To maintain clarity and consistency in our Intune deployments, we follow a structured naming convention for our app folders. This helps in easily identifying and managing the various types of applications and scripts.
+Consistent naming helps identify application type, version, and deployment intent.  
+Format standard that can be followed:
 
-## Naming Conventions
+`[Type]_[App/ItemName]_[Action]`
+
+### Where:
+- **Type** = Win32, MSI, Script, Drivers, Patch  
+- **App/ItemName** = Clear application or item name  
+- **Action** = Deployment action (Required, Available, Uninstall)  
+
+### Deployment Actions
+- **Required** → Mandatory install for targeted devices  
+- **Available** → Optional install, shown in Company Portal  
+- **Uninstall** → Removes the application from targeted devices  
+
+---
 
 ### 1. Win32 Applications
-- **Format:** `Win32_[AppName]_[Version]`
-- **Example:** `Win32_AdobeReader_2024.1`
-- **Description:** Use this format for all Win32 applications. 
+- **Format:** `Win32_[AppName]_[Action]`
+- **Example:** `Win32_AdobeReader_Required`
+- **Description:** Use for Win32 apps packaged with Intune Win32 packaging.
+
+---
+
 ### 2. MSI Applications
-- **Format:** `MSI_[AppName]_[Version]`
-- **Example:** `MSI_Chrome_89.0.4389.90`
-- **Description:** This format is for applications that are deployed using MSI files. 
+- **Format:** `MSI_[AppName]_[Action]`
+- **Example:** `MSI_GoogleChrome_Available`
+- **Description:** Use for applications deployed with MSI installers.
+
+---
+
 ### 3. Scripts and Other Files
-- **Format:** `Script_[ScriptName]_[Version]`
-- **Example:** `Script_InstallTeams_1.0`
-- **Description:** Use this naming convention for deployment scripts and other necessary files.
+- **Format:** `Script_[ScriptName]_[Action]`
+- **Example:** `Script_InstallTeams_Required`
+- **Description:** Use for deployment, remediation, or utility scripts.
+
+---
 
 ### 4. Drivers
-- **Format:** `Drivers_[DeviceName]_[Version]`
-- **Example:** `Drivers_DellLatitude_1.2.3`
-- **Description:** This format is used for driver packages. Including the device name and version ensures the correct drivers are used for specific hardware.
+- **Format:** `Drivers_[DeviceName]_[Action]`
+- **Example:** `Drivers_DellLatitude_Required`
+- **Description:** Use for driver deployments. Device name + version ensures hardware alignment.
+
+---
 
 ### 5. Patches and Updates
-- **Format:** `Patch_[AppName]_[Version]`
-- **Example:** `Patch_Windows10_21H2`
-- **Description:** Use this format for patches and updates to existing applications or the operating system. 
+- **Format:** `Patch_[App/OS]_[Action]`
+- **Example:** `Patch_Windows10_21H2_Required`
+- **Description:** Use for OS patches, security updates, or application hotfixes.
+
+---
+
+
+
 
