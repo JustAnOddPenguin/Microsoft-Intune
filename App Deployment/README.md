@@ -23,6 +23,7 @@ A collection of app deployment tools.
 ## Community Resources
 - [Reddit: Intune](https://www.reddit.com/r/Intune/)
 - [XenAppBlog + Automation Framework](https://xenappblog.com/)
+- [Patch My PC Blogs](https://patchmypc.com/blog/)
 
 ## Troubleshooting
 - *Call4Cloud*
